@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import BaseInput from ".";
+import Test from "./Text";
+import Mail from "./Email";
+import Pass from "./Password";
 
 const Hero = () =>{
     return(
@@ -12,10 +15,10 @@ const Hero = () =>{
                         Start getting paid with Flutterwave
                     </Title>
 
-                    <BaseInput type = "text" placeholder="First Name"/>
-                    <BaseInput type = "text" placeholder="Last Name"/>
-                    <BaseInput type = "email" placeholder="Email"/>
-                    <BaseInput type = "password" placeholder="password"/>
+                    <Test placeholder="First name"/>
+                    <Test placeholder="Last name"/>
+                    <Mail placeholder="Email"/>
+                    <Pass placeholder="Password"/>
                     </Card>
                 </Wrapper>
             </Container>
